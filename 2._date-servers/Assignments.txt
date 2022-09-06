@@ -1,0 +1,6 @@
+Integrate the date servers from last week.
+
+For example when a client requests a timestamp from server A 
+then server A requests the time from server B and responds with the time to the client. 
+
+You can add as many integrations between A and B as you want. 

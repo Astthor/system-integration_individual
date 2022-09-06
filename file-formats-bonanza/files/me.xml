@@ -1,0 +1,9 @@
+<me>
+	<name>Astthor</name>
+	<age>29</age>
+	<likesProgramming>true</likesProgramming>
+	<hobbies>
+		<hobby>Snowboarding</hobby>
+		<hobby>Martial Arts</hobby>
+	</hobbies>
+</me>

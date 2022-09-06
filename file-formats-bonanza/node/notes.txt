@@ -1,0 +1,14 @@
+
+TXT:
+Manually reading with file reader (fs).
+Probably a better solution available for parsing.
+Had a bit of trouble with parsing string "true" into a boolean value of true, etc.
+- Doing so with some if's and elses, it ended up skipping the value.
+- Most likely lack of knowledge regarding json and js objects.
+
+Library for yaml to json: npm install js-yaml
+- As simple as it got.
+- Perhaps the exercise was to train low level coding and we should parse it manually 
+- - as done with txt file format... ?
+
+
