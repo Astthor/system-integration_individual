@@ -1,0 +1,23 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "swagger-autogen": "node ./swagger.js",
+		"getit": "npm run swagger-autogen && nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "swagger-ui-express": "^4.5.0"
+  },
+  "devDependencies": {
+    "swagger-autogen": "^2.22.0"
+  }
+}
